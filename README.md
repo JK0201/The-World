@@ -89,9 +89,9 @@
   </details>
   <br>
 
-## 문제점 및 개선점
+## Update
   <details>
-    <summary><b>문제점 (Version 1.0)</b></summary>
+    <summary><b>[ 1.0.0 ]</b></summary>
     <ul>
       <li>컨트롤러에 모든 기능이 집중되어 있어 코드 유지보수 및 재사용성이 떨어짐</li>
       <li>유효성 검사를 클라이언트에서만 수행하여 보안 취약점이 존재함</li>
