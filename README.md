@@ -43,17 +43,28 @@
   </details>
 
   <details>
-    <summary><b>서버 개발 및 데이터 관리</b></summary>
+    <summary><b>백앤드 개발 및 데이터 관리</b></summary>
     <ul>
       <li>PostgreSQL과 JPA 초기 설정 및 Entity를 사용하여 데이터베이스와 연결</li>
       <li>초기 서버 구동 시 환경변수에 주입된 Admin 비밀번호를 CommandLineRunner 인터페이스를 활용해 Bcrypt와 Salt로 암호화 하여 저장</li>
       <li>Admin 비밀번호 검증을 통해 특정 사용자만 CRUD 요청 가능하도록 구현</li>
-      <li>서버에서 CRUD 요청에 대한 사용자 입력 정보 유효성 검사 기능 구현</li>
+      <li>CRUD 요청에 대한 사용자 입력 정보 유효성 검사 기능 구현</li>
       <li>업로된 이미지에 대한 유효성 검사를 실행하고 서버에 저장 및 삭제 기능 구현</li>
-      <li>ExceptionHandler를 사용하여 요청에 대해 Http status code로 응답해 사용자에게 피드백 하도록 구현</li>
+      <li>ExceptionHandler를 사용하여 요청에 대해 HTTP status code로 응답해 사용자에게 피드백 하도록 구현</li>
     </ul>
   </details>
-  
+
+  <details>
+    <summary><b>Docker</b></summary>
+    <ul>
+      <li>Docker를 사용하여 애플리케이션을 컨테이너화하고, 배포 환경을 설정</li>
+      <li>docker-compose.yml을 작성하여 여러 컨테이너의 설정 및 관리를 자동화</li>
+      <li>데이터의 영속성을 위해 서버와 volume mount를 하여 데이터 보존</li>
+      <li>Docker Network를 활용하여 컨테이너 간의 통신을 효율적으로 관리</li>
+      <li>CPU와 Memory 사용량에 제한을 두어 리소스 관리 최적화</li>
+      <li>Certbot을 사용하여 SSL 인증서 자동 갱신 구현</li>
+    </ul>
+  </details>
   <br>
 
 ## 문제점 및 개선점
