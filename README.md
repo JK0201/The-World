@@ -7,7 +7,7 @@
   <p>인원 : 6명</p>
   
   [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JK0201/Devster-final)
-  [![YouTube](https://img.shields.io/badge/YouTube-222222.svg?style=for-the-badge&logo=homeadvisor&logoColor=white)](https://youtu.be/NXt0J5pUHhM)
+  [![YouTube](https://img.shields.io/badge/url-222222.svg?style=for-the-badge&logo=homeadvisor&logoColor=white)](https://youtu.be/NXt0J5pUHhM)
 </div>
 
 ## Overview
