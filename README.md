@@ -24,16 +24,12 @@
 </div>
 <br>
 
-## 나의 역할
+## 주요 작업
   <details>
-    <summary><b>프론트엔드 팀장</b></summary>
-  </details>
-
-  <details>
-    <summary><b>프로젝트 구조 및 디자인</b></summary>
+    <summary><b>3D 모델링 작업 및 적용</b></summary>
     <ul>
-      <li>코드 일관성, 협업 효율성, 유지보수 강화를 위한 프론트엔드 컨벤션 작성 및 프로젝트 폴더 구조 정리</li>
-      <li>사용자 경험 증진을 위해 Figma를 사용하여 페이지 UI/UX 디자인</li>
+      <li>Blender를 사용하여 3D 모델 제작</li>
+      <li>ThreeJS를 사용하여 웹 상에서 3D 모델을 캔버스에 렌더링하고, 사용자와 상호작용할 수 있는 인터페이스 구현</li>
     </ul>
   </details>
   
