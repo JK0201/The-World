@@ -47,9 +47,10 @@
     <ul>
       <li>PostgreSQL과 JPA 초기 설정 및 Entity를 사용하여 데이터베이스와 연결</li>
       <li>초기 서버 구동 시 환경변수에 주입된 Admin 비밀번호를 CommandLineRunner 인터페이스를 활용해 Bcrypt와 Salt로 암호화 하여 저장</li>
-      <li>서버에서 CRUD 요청에대한 유효성 검사 기능 구현</li> 
       <li>Admin 비밀번호 검증을 통해 특정 사용자만 CRUD 요청 가능하도록 구현</li>
-      <li>업로된 이미지를 서버에서 이미지에 대한 유효성 검사를 하고 저장 및 삭제 기능 구현</li>
+      <li>서버에서 CRUD 요청에 대한 사용자 입력 정보 유효성 검사 기능 구현</li>
+      <li>업로된 이미지에 대한 유효성 검사를 실행하고 서버에 저장 및 삭제 기능 구현</li>
+      <li>ExceptionHandler를 사용하여 요청에 대해 Http status code로 응답해 사용자에게 피드백 하도록 구현</li>
     </ul>
   </details>
   
