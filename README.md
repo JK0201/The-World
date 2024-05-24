@@ -103,7 +103,7 @@
       <li>API 서버 추가</li>
       <li>3Tier 아키텍쳐 추가</li>
     </ul>
-    <div>Comment</div>
+    <b>Comment</b>
   </details>
 
   <details>
