@@ -118,15 +118,17 @@
   </details>
 
   <details>
-    <summary><b>개선점 (Version 2.0)</b></summary>
+    <summary><b>v 1.2.0</b></summary>
     <ul>
-      <li>서비스 레이어로 기능을 분리하고 컨트롤러 본연의 역할을 할 수 있도록 분리하여 코드의 유지보수성을 높이고 재사용성을 향상 시킴</li>
-      <li>서버 측 유효성 검사를 추가하여 보안 강화</li>
-      <li>소셜 로그인 처리를 서버 측으로 이전하여 보안성을 강화하고, 리다이렉트를 통해 사용자 경험을 향상</li>
-      <li>CSR(Client-Side Rendering) 방식인 React를 사용하여 SPA(Single Page Application) 방식을 통해 페이지 전환을 매끄럽게 하여 사용자 경험을 향상 </li>
-      <li>Redux를 도입하여 전역 변수를 효율적으로 관리하고 상태 관리의 일관성을 높임</li>
+      <li>HTTP/HTTPS 적용</li>
+      <li>CI/CD 파이프라인 구축</li>
     </ul>
-  </details>  
+    <b>Comment</b>
+    <ul>
+      <li>포트폴리오 게시판을 유연하게 관리하기 위해 API 서버를 구축하여 Admin만 사용가능하도록 설정했습니다.</li>
+      <li>3Tier 아키텍쳐를 통해 데이터베이스 보안을 강화하고, 클라이언트와 서버 간의 명확한 역할 분리를 통해 유지보수성과 확장성을 높이기 위해 적용했습니다.</li>
+    </ul>
+  </details>
 <br>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:16213E,10:0F3460,30:533483,75:5B2A86,100:E94560&height=40&section=footer&text=&fontSize=0" width="100%"/>
