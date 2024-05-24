@@ -65,6 +65,16 @@
       <li>Certbot을 사용하여 SSL 인증서 자동 갱신 구현</li>
     </ul>
   </details>
+
+  <details>
+    <summary><b>3Tier 아키텍쳐</b></summary>
+    <ul>
+      <li>클라이언트, 서버, 데이터베이스 간의 명확한 분리를 통해 보안성과 확장성을 향상</li>
+      <li>서버 요청을 Nginx로 처리하여 클라이언트에서만 유저가 접근할 수 있도록 Reverse Proxy 구현</li>
+      <li>Nginx 설정을 통해 HTTP 요청을 HTTPS로 리다이렉트하여 보안 강화</li>
+      <li>특정 API를 </li>
+    </ul>
+  </details>
   <br>
 
 ## 문제점 및 개선점
