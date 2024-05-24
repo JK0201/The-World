@@ -1,0 +1,7 @@
+node_modules
+dist
+
+#Resources
+/frontend/src/images/*
+/frontend/src/models/*
+/frontend/src/sounds/*

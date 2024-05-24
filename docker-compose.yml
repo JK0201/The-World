@@ -1,0 +1,67 @@
+version: '3'
+services:
+  my-postgres:
+    image: DockerHubAccount/my-postgres:tag
+    networks:
+      - myNetworks
+    volumes:
+      - /mydata/resume/data:/var/lib/postgresql/data
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 256M
+    restart: always
+
+  my-back:
+    image: DockerHubAccount/my-backend:tag
+    networks:
+      - myNetworks
+    environment:
+      - UPLOAD_PATH=${UPLOAD_PATH}
+      - DB_URL=${DB_URL}
+      - DB_NAME=${DB_NAME}
+      - DB_USERNAME=${DB_USERNAME}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+    volumes:
+      - /mydata/resume/images:/mydata/resume/images
+    depends_on:
+      - my-postgres
+    deploy:
+      resources:
+        limits:
+          cpus: '1.5'
+          memory: 1G
+    restart: on-failure
+
+  my-front:
+    image: DockerHubAccount/my-frontend:tag
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - myNetworks
+    volumes:
+      - /mydata/resume/certbot/conf:/etc/letsencrypt
+      - /mydata/resume/certbot/www:/var/www/certbot
+    depends_on:
+      - my-back
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 64M
+    restart: on-failure
+
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - /mydata/resume/certbot/conf:/etc/letsencrypt
+      - /mydata/resume/certbot/www:/var/www/certbot
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
+    depends_on:
+      - my-front
+
+networks:
+  myNetworks:
