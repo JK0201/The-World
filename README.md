@@ -74,6 +74,18 @@
       <li>Nginx 설정을 통해 HTTP 요청을 HTTPS로 리다이렉트하여 보안 강화</li>
     </ul>
   </details>
+
+  <details>
+    <summary><b>서버 보안 및 관리</b></summary>
+    <ul>
+      <li>Ubuntu 기반 개인용 홈서버를 구축하여 애플리케이션을 배포하고 관리하는 환경 구축</li>
+      <li>SSH를 로컬 네트워크 환경에서만 접속할 수 있도록 설정하여 보안 강화</li>
+      <li>Fail2ban을 적용하여 외부에서 부터의 악의적인 SSH 접속 시도 차단</li>
+      <li>데이터의 안정성을 높이기 위해 RAID1 구성으로 데이터 복제(Mirroring) 및 배포한 어플리케이션과 volume mount를 적용</li>
+      <li>개인 도메인을 설정하고, 포트포워딩을 통해 HTTP/HTTPS 접근 설정</li>
+      <li></li>
+    </ul>
+  </details>
   <br>
 
 ## 문제점 및 개선점
