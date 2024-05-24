@@ -111,7 +111,7 @@
   </details>
 
   <details>
-    <summary><b>[ v 1.1.1 ]</b></summary>
+    <summary><b>v 1.1.1</b></summary>
     <ul>
       <li>Resume, Biography 내용 추가 및 디자인 수정</li>
     </ul>
