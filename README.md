@@ -103,7 +103,7 @@
 
 ## Patch Notes
   <details>
-    <summary><h4>v 1.0.0</h4></summary>
+    <summary><b>v 1.0.0</b></summary>
     <ul>
       <li>The World 프로젝트 최초 배포</li>
     </ul>
