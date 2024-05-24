@@ -43,27 +43,16 @@
   </details>
 
   <details>
-    <summary><b>프론트엔드 기능 추가</b></summary>
+    <summary><b>서버 개발 및 데이터 관리</b></summary>
     <ul>
-      <li>Redux를 설정 및 Store를 활용하여 전역 상태 관리</li>
-      <li>React-cropper API를 활용하여 회원 사진 크기를 일정하게 만들기 위한 Resize & Crop 기능 구현</li>
+      <li>PostgreSQL과 JPA 초기 설정 및 Entity를 사용하여 데이터베이스와 연결</li>
+      <li>초기 서버 구동 시 환경변수에 주입된 Admin 비밀번호를 CommandLineRunner 인터페이스를 활용해 Bcrypt와 Salt로 암호화 하여 저장</li>
+      <li>서버에서 CRUD 요청에대한 유효성 검사 기능 구현</li> 
+      <li>Admin 비밀번호 검증을 통해 특정 사용자만 CRUD 요청 가능하도록 구현</li>
+      <li>업로된 이미지를 서버에서 이미지에 대한 유효성 검사를 하고 저장 및 삭제 기능 구현</li>
     </ul>
   </details>
-
-  <details>
-    <summary><b>실시간 채팅 기능 추가</b></summary>
-    <ul>
-      <li>WebSocket과 StompJS를 사용하여 실시간 채팅 기능 백엔드 및 프론트엔드 구현</li>
-    </ul>
-  </details> 
-
-  <details>
-    <summary><b>각종 프론트엔드 API 구현</b></summary>
-    <ul>
-      <li>에러 핸들러 API를 만들고 Toast UI를 활용해 사용자에게 피드백 제공</li>
-      <li>회원/비회원, 등급별 페이지 엑세스 권한 API를 만들어 페이지별 적용</li>
-    </ul>
-  </details> 
+  
   <br>
 
 ## 문제점 및 개선점
