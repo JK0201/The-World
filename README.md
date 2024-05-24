@@ -81,9 +81,10 @@
       <li>Ubuntu 기반 개인용 홈서버를 구축하여 애플리케이션을 배포하고 관리하는 환경 구축</li>
       <li>SSH를 로컬 네트워크 환경에서만 접속할 수 있도록 설정하여 보안 강화</li>
       <li>Fail2ban을 적용하여 외부로 부터의 악의적인 SSH 접속 시도 차단</li>
-      <li>데이터의 안정성을 높이기 위해 RAID1 구성으로 데이터 복제(Mirroring) 및 배포한 어플리케이션과 volume mount를 적용</li>
-      <li>개인 도메인을 설정하고, 포트포워딩을 통해 HTTP/HTTPS 접근 설정</li>
+      <li>데이터의 안정성을 높이기 위해 RAID1 구성으로 데이터 복제(Mirroring) 구현 및 배포한 어플리케이션과 volume mount를 적용</li>
+      <li>Nginx와 도메인을 연결하고, 포트포워딩을 통해 HTTP/HTTPS 접근 설정</li>
       <li>SSL 인증서를 받아서 HTTPS 연결을 통해 웹사이트의 보안 강화</li>
+      <li>유동 IP 환경에서 안정적인 도메인 연결을 위해 공유기의 DDNS(Dynamic DNS) 기능을 활용하여 도메인과 매핑</li>
     </ul>
   </details>
   <br>
