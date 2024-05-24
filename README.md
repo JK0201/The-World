@@ -1,13 +1,13 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213E,10:0F3460,30:533483,75:5B2A86,100:E94560&height=100&section=header&text=&fontSize=0" width="100%"/>
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=500&pause=10000&color=58A6FF&center=true&random=false&width=435&lines=Devster v2.0" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=500&pause=10000&color=58A6FF&center=true&random=false&width=435&lines=The World" alt="Typing SVG" />
   </a>
   <p>[ 2023.06.30 - 2023.08.06 ]</p>
-  <p>인원 : 6명</p>
+  <p>인원 : 1명</p>
   
   [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JK0201/Devster-final)
-  [![YouTube](https://img.shields.io/badge/url-222222.svg?style=for-the-badge&logo=homeadvisor&logoColor=white)](https://mynameisjk.com)
+  [![URL](https://img.shields.io/badge/url-222222.svg?style=for-the-badge&logo=homeadvisor&logoColor=white)](https://mynameisjk.com)
 </div>
 
 ## Overview
