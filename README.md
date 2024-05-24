@@ -34,15 +34,11 @@
   </details>
   
   <details>
-    <summary><b>사용자 인증 및 프로세스 개선</b></summary>
+    <summary><b>프론트엔드 개발 및 모듈화</b></summary>
     <ul>
-      <li>로그인, 회원가입, 아이디 비밀번호 찾기 프론트엔드 구현</li>
-      <li>사용자 입력 정보에 대한 실시간 필드 유효성 검사 기능 구현</li>
-      <li>비밀번호 강도 체크 기능 구현 ("중" 이상 가입 가능)</li>
-      <li>이메일, 핸드폰인증 기존코드 개선</li>
-      <li>OAuth2.0 인증방식을 사용하여 카카오, 네이버 로그인 기능 구현 및 백엔드와 연동</li>
-      <li>Axios Interceptor를 활용하여 사용자 request시 JWT 토큰 처리를 통한 보안 강화</li>
-      <li>Access token 만료시 Refresh token 재발급 및 Local storage에 저장</li>
+      <li>코드 재사용성과 유지보수를 위해 함수 및 변수를 모듈화하여 관리</li>
+      <li>Class 문법을 활용하여 3D 인스턴스 생성 및 전역 관리</li>
+      <li>HTML 페이지를 구성하고, 동적으로 생성되는 HTML을 컴포넌트로 분리하여 관리</li>
     </ul>
   </details>
 
