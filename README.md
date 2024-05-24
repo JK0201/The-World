@@ -111,6 +111,13 @@
   </details>
 
   <details>
+    <summary><b>[ v 1.1.1 ]</b></summary>
+    <ul>
+      <li>Resume, Biography 내용 추가 및 디자인 수정</li>
+    </ul>
+  </details>
+
+  <details>
     <summary><b>개선점 (Version 2.0)</b></summary>
     <ul>
       <li>서비스 레이어로 기능을 분리하고 컨트롤러 본연의 역할을 할 수 있도록 분리하여 코드의 유지보수성을 높이고 재사용성을 향상 시킴</li>
