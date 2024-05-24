@@ -91,14 +91,9 @@
 
 ## Update
   <details>
-    <summary><b>[ v1.0.0 ]</b></summary>
+    <summary><b>[ v 1.0.0 ]</b></summary>
     <ul>
-      <li>컨트롤러에 모든 기능이 집중되어 있어 코드 유지보수 및 재사용성이 떨어짐</li>
-      <li>유효성 검사를 클라이언트에서만 수행하여 보안 취약점이 존재함</li>
-      <li>JavaScript로 클라이언트에서만 소셜 로그인을 처리하여 토큰 노출 위험 및 코드 유출로 인한 보안 취약점</li>
-      <li>JavaScript코드가 모듈화 되지 않아 유지 보수 및 가독성이 떨어짐</li>
-      <li>기존 SSR(Server-Side Rendering) 방식의 v1.0은 페이지 전환이 매끄럽지 않아 사용자 경험을 제한함</li>
-      <li>전역 변수를 체계적으로 관리하지 못해 상태 관리의 일관성이 떨어짐</li>
+      <li>The World 프로젝트 최초 배포</li>
     </ul>
   </details>
 
