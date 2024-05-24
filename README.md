@@ -91,14 +91,14 @@
 
 ## Patch Notes
   <details>
-    <summary><b>v 1.0.0</b></summary>
+    <summary><h3>v 1.0.0</h3></summary>
     <ul>
       <li>The World 프로젝트 최초 배포</li>
     </ul>
   </details>
 
   <details>
-    <summary><b>v 1.1.0</b></summary>
+    <summary><h3>v 1.1.0</h3></summary>
     <ul>
       <li>API 서버 추가</li>
       <li>3Tier 아키텍쳐 추가</li>
