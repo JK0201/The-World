@@ -118,7 +118,7 @@
   </details>
 
   <details>
-    <summary><b>v 1.2.0</b></summary>
+    <summary><h4>v 1.2.0</h4></summary>
     <ul>
       <li>HTTP/HTTPS 적용</li>
       <li>CI/CD 파이프라인 구축</li>
@@ -129,7 +129,7 @@
   </details>
 
   <details>
-    <summary><b>v 1.2.1</b></summary>
+    <summary><h4>v 1.2.1</h4></summary>
     <ul>
       <li>포트폴리오 게시판 목차 메뉴 추가</li>
     </ul>
@@ -139,7 +139,7 @@
   </details>
 
   <details>
-    <summary><b>v 1.2.2</b></summary>
+    <summary><h4>v 1.2.2</h4></summary>
     <ul>
       <li>디자인 수정</li>
     </ul>
