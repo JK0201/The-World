@@ -79,7 +79,7 @@
     <summary><b>배포 및 CI/CD</b></summary>
     <ul>
       <li>GitHub Actions를 사용하여 코드 변경 시 자동으로 빌드 및 배포되도록 각 계층별 Workflow를 작성하고 개인용 홈서버와 파이프라인 설정</li>
-      <li>민감한 정보를 안전하게 관리하기 위해 Github Secrets를 사용하여 보안 강화?</li>
+      <li>민감한 정보를 안전하게 관리하기 위해 Github Secrets를 사용하여 보안 강화</li>
     </ul>
   </details>
 
