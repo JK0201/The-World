@@ -91,7 +91,7 @@
 
 ## Outro
   <details>
-    <summary><b>느낀점</b></summary>
+    <summary><h4>느낀점</h4></summary>
     <ul>
       <li></li>
     </ul>
