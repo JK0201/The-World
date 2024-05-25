@@ -135,14 +135,15 @@
   <br>
 
   <details>
-    <summary><h4>1.1.1</h4></summary>
+    <summary><b>1.1.1</b></summary>
     <ul>
       <li>Resume, Biography 내용 추가 및 디자인 수정</li>
     </ul>
   </details>
-
+  <br>
+  
   <details>
-    <summary><h4>1.2.0</h4></summary>
+    <summary><b>1.2.0</b></summary>
     <ul>
       <li>HTTP/HTTPS 적용</li>
       <li>CI/CD 파이프라인 구축</li>
@@ -152,10 +153,11 @@
       </li>
     </ul>
   </details>
-
+  <br>
+  
   <details>
-    <summary><h4>1.2.1</h4></summary>
-      <ul style="list-style:none">
+    <summary><b>1.2.1</b></summary>
+      <ul>
         <li>포트폴리오 게시판 목차 메뉴 추가</li>
         <li><b>Comment :</b>
         <br>
@@ -163,6 +165,7 @@
         </li>
       </ul>
   </details>
+  <br>
 
   <details>
     <summary><h4>1.2.2</h4></summary>
