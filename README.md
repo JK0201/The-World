@@ -167,7 +167,6 @@
   <details>
     <summary><b>1.2.2</b></summary>
     <ul>
-      <li>Portfolio 내용 추가</li>
       <li>디자인 수정</li>
     </ul>
   </details>
