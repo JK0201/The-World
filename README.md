@@ -151,7 +151,6 @@
       </li>
     </ul>
   </details>
-  <br>
   
   <details>
     <summary><b>1.2.1</b></summary>
