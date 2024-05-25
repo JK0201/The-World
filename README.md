@@ -124,7 +124,7 @@
       <li>API 서버 추가</li>
       <li>3Tier 아키텍쳐 추가</li>
     </ul>
-    <b>Comment</b>
+    <b>Comment :</b>
     <br>
     포트폴리오 게시판을 유연하게 관리하기 위해 API 서버를 구축하여 Admin만 사용가능하도록 설정했습니다.
     <br>
@@ -144,7 +144,7 @@
       <li>HTTP/HTTPS 적용</li>
       <li>CI/CD 파이프라인 구축</li>
     </ul>
-    <b>Comment</b>
+    <b>Comment :</b>
     <br>
     HTTPS 적용으로 사용자 데이터의 안전성을 확보하고, CI/CD 파이프라인 구축으로 개발 효율성을 극대화하여 빠른 배포를 가능하도록 했습니다.
   </details>
@@ -153,7 +153,7 @@
     <summary><h4>v 1.2.1</h4></summary>
       <ul>
         <li>포트폴리오 게시판 목차 메뉴 추가</li>
-      <ul>
+      </ul>
       <b>Comment :</b>
       <br>
       사용자 경험을 향상시키기 위해 직관적인 내비게이션 기능을 추가하여 각 항목 간의 이동을 쉽게 만들도록 했습니다.
