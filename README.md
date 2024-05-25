@@ -132,7 +132,6 @@
       </li>
     </ul>
   </details>
-  <br>
 
   <details>
     <summary><b>1.1.1</b></summary>
@@ -140,7 +139,6 @@
       <li>Resume, Biography 내용 추가 및 디자인 수정</li>
     </ul>
   </details>
-  <br>
   
   <details>
     <summary><b>1.2.0</b></summary>
@@ -165,17 +163,16 @@
         </li>
       </ul>
   </details>
-  <br>
 
   <details>
-    <summary><h4>1.2.2</h4></summary>
+    <summary><b>1.2.2</b></summary>
     <ul>
       <li>디자인 수정</li>
     </ul>
   </details>
 
   <details>
-    <summary><h4>Coming up patch</h4></summary>
+    <summary><b>Coming up patch</b></summary>
     <ul>
       <li>각 게시판 상호작용 3D 모델 추가</li>
     </ul>
