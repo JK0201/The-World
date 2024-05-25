@@ -111,16 +111,16 @@
 <br>
 
 ## Patch Notes
-Version : 
+<b>Version :</b> 
   <details>
-    <summary><h4>v 1.0.0</h4></summary>
+    <summary><h4>1.0.0</h4></summary>
     <ul>
       <li>The World 프로젝트 최초 배포</li>
     </ul>
   </details>
 
   <details>
-    <summary><h4>v 1.1.0</h4></summary>
+    <summary><h4>1.1.0</h4></summary>
     <ul>
       <li>API 서버 추가</li>
       <li>3Tier 아키텍쳐 추가</li>
@@ -133,14 +133,14 @@ Version :
   </details>
 
   <details>
-    <summary><h4>v 1.1.1</h4></summary>
+    <summary><h4>1.1.1</h4></summary>
     <ul>
       <li>Resume, Biography 내용 추가 및 디자인 수정</li>
     </ul>
   </details>
 
   <details>
-    <summary><h4>v 1.2.0</h4></summary>
+    <summary><h4>1.2.0</h4></summary>
     <ul>
       <li>HTTP/HTTPS 적용</li>
       <li>CI/CD 파이프라인 구축</li>
@@ -151,7 +151,7 @@ Version :
   </details>
 
   <details>
-    <summary><h4>v 1.2.1</h4></summary>
+    <summary><h4>1.2.1</h4></summary>
       <ul>
         <li>포트폴리오 게시판 목차 메뉴 추가</li>
       </ul>
@@ -161,7 +161,7 @@ Version :
   </details>
 
   <details>
-    <summary><h4>v 1.2.2</h4></summary>
+    <summary><h4>1.2.2</h4></summary>
     <ul>
       <li>디자인 수정</li>
     </ul>
