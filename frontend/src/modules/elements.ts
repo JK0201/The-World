@@ -134,6 +134,7 @@ const initWorld = async () => {
   if (loading) {
     const timer = setInterval(() => {
       loadingProgression++;
+      loadingMain.innerHTML = `LOADING... ${loadingProgression}%`;
       loadingBar.style.width = `${loadingProgression}%`;
       if (loadingProgression >= 100) {
         clearInterval(timer);

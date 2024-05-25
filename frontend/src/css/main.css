@@ -334,17 +334,16 @@ section {
   font-size: 1.2rem;
 }
 
+.selected-elem {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #e06c76;
+}
+
 .portfolio-navi-elem:hover::after {
   content: '<';
   position: relative;
   margin-left: 0.5rem;
-}
-
-.selected-elem {
-  font-weight: bold;
-  text-decoration: underline;
-  font-size: 1.2rem;
-  color: #e06c76;
 }
 
 .header-box {
@@ -576,20 +575,20 @@ section {
 .project,
 .study {
   max-width: 358px;
-  min-height: 613px;
+  min-height: 612.8px;
   padding: 1rem;
   margin: 0 auto;
   border-radius: 16px;
-  border: 2px solid #eee;
   transform: scale(1);
   opacity: 1;
   transition: opacity 0.3s;
+  background-color: #2f2f2f;
 }
 
 .project-img-box,
 .study-img-box {
-  max-width: 280px;
-  max-height: 280px;
+  max-width: 326px;
+  max-height: 326px;
   margin: 0 auto;
 }
 
@@ -597,8 +596,8 @@ section {
 .study-img {
   width: 100%;
   height: 100%;
-  min-height: 280px;
-  max-height: 280px;
+  min-height: 326px;
+  max-height: 326px;
   border-radius: 16px;
 }
 
@@ -613,13 +612,18 @@ section {
 .project-info,
 .study-info {
   text-align: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.project-detail h3,
+.study-detail h3 {
+  min-height: 26.22px;
 }
 
 .project-info,
 .study-info {
-  min-height: 134.34px;
-  max-height: 134.34px;
+  min-height: 84px;
+  max-height: 84px;
   padding: 0.5rem 0.5rem;
   overflow-x: hidden;
   overflow-y: auto;
@@ -627,7 +631,6 @@ section {
   white-space: pre-wrap;
   text-align: center;
   line-height: 140%;
-  /* line-height: 0.7; */
 }
 
 .stacks {
@@ -637,13 +640,13 @@ section {
 }
 
 .stacks img {
-  width: 1.8rem;
+  width: 2rem;
   margin: 0 0.5rem;
 }
 
 .link-btn-box {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin: 0.5rem 0 0;
 }
@@ -1000,12 +1003,26 @@ section {
   margin-top: 1rem;
 }
 
+.github-link-text {
+  margin: 0 0.5rem;
+  height: 33px;
+  line-height: 33px;
+}
+
 .p-0 {
   padding: 0;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 .w-75 {
   width: 75%;
+}
+
+.w-70 {
+  width: 70%;
 }
 
 .w-50 {

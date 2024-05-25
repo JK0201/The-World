@@ -9,10 +9,10 @@ var project = function (item) {
     });
     project += "\n    </div>\n    <div class=\"project-info\">".concat(item.content, "</div>\n  </div>\n  <div class=\"link-btn-box\">\n  ");
     if (!item.link) {
-        project += "\n        <div class=\"link-btn w-50\" data-url=\"".concat(item.github, "\">\n          <img src=\"./images/langs/GitHub.png\" />\n        </div>\n      </div>\n    </div>\n  </div>\n  ");
+        project += "\n        <div class=\"link-btn w-100\" data-url=\"".concat(item.github, "\">\n          <img src=\"./images/langs/GitHub.png\" />\n          <h3 class=\"github-link-text\">Github</h3>\n        </div>\n      </div>\n    </div>\n  </div>\n  ");
     }
     else {
-        project += "\n        <div class=\"link-btn w-50\" data-url=\"".concat(item.link, "\">\n          <h2>\uD83D\uDD17 U R L</h2>\n        </div>\n          <div class=\"link-btn w-25\" data-url=\"").concat(item.github, "\">\n            <img src=\"./images/langs/GitHub.png\" />\n          </div>\n        </div>\n      </div>\n    </div>\n    ");
+        project += "\n        <div class=\"link-btn w-70\" data-url=\"".concat(item.link, "\">\n          <h3>U R L</h3>\n        </div>\n          <div class=\"link-btn w-25\" data-url=\"").concat(item.github, "\">\n            <img src=\"./images/langs/GitHub.png\" />\n          </div>\n        </div>\n      </div>\n    </div>\n    ");
     }
     return project;
 };
@@ -26,10 +26,10 @@ var study = function (item) {
     });
     study += "\n    </div>\n    <div class=\"study-info\">".concat(item.content, "</div>\n  </div>\n  <div class=\"link-btn-box\">\n  ");
     if (!item.link) {
-        study += "\n        <div class=\"link-btn w-50\" data-url=\"".concat(item.github, "\">\n          <img src=\"./images/langs/GitHub.png\" />\n        </div>\n      </div>\n    </div>\n  </div>\n  ");
+        study += "\n        <div class=\"link-btn w-100\" data-url=\"".concat(item.github, "\">\n          <img src=\"./images/langs/GitHub.png\" />\n          <h3 class=\"github-link-text\">Github</h3>\n        </div>\n      </div>\n    </div>\n  </div>\n  ");
     }
     else {
-        study += "\n        <div class=\"link-btn w-50\" data-url=\"".concat(item.link, "\">\n            <h2>\uD83D\uDD17 U R L</h2>\n          </div>\n          <div class=\"link-btn w-25\" data-url=\"").concat(item.github, "\">\n            <img src=\"./images/langs/GitHub.png\" />\n          </div>\n        </div>\n      </div>\n    </div>\n    ");
+        study += "\n        <div class=\"link-btn w-70\" data-url=\"".concat(item.link, "\">\n          <h3>U R L</h3>\n          </div>\n          <div class=\"link-btn w-25\" data-url=\"").concat(item.github, "\">\n            <img src=\"./images/langs/GitHub.png\" />\n          </div>\n        </div>\n      </div>\n    </div>\n    ");
     }
     return study;
 };

@@ -30,8 +30,9 @@ const project = (item: PostingType) => {
   `;
   if (!item.link) {
     project += `
-        <div class="link-btn w-50" data-url="${item.github}">
+        <div class="link-btn w-100" data-url="${item.github}">
           <img src="./images/langs/GitHub.png" />
+          <h3 class="github-link-text">Github</h3>
         </div>
       </div>
     </div>
@@ -39,8 +40,8 @@ const project = (item: PostingType) => {
   `;
   } else {
     project += `
-        <div class="link-btn w-50" data-url="${item.link}">
-          <h2>🔗 U R L</h2>
+        <div class="link-btn w-70" data-url="${item.link}">
+          <h3>U R L</h3>
         </div>
           <div class="link-btn w-25" data-url="${item.github}">
             <img src="./images/langs/GitHub.png" />
@@ -82,8 +83,9 @@ const study = (item: PostingType) => {
   `;
   if (!item.link) {
     study += `
-        <div class="link-btn w-50" data-url="${item.github}">
+        <div class="link-btn w-100" data-url="${item.github}">
           <img src="./images/langs/GitHub.png" />
+          <h3 class="github-link-text">Github</h3>
         </div>
       </div>
     </div>
@@ -91,8 +93,8 @@ const study = (item: PostingType) => {
   `;
   } else {
     study += `
-        <div class="link-btn w-50" data-url="${item.link}">
-            <h2>🔗 U R L</h2>
+        <div class="link-btn w-70" data-url="${item.link}">
+          <h3>U R L</h3>
           </div>
           <div class="link-btn w-25" data-url="${item.github}">
             <img src="./images/langs/GitHub.png" />

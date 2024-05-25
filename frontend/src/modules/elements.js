@@ -135,6 +135,7 @@ var initWorld = function () { return __awaiter(void 0, void 0, void 0, function 
                 if (loading) {
                     timer_1 = setInterval(function () {
                         loadingProgression++;
+                        loadingMain.innerHTML = "LOADING... ".concat(loadingProgression, "%");
                         loadingBar.style.width = "".concat(loadingProgression, "%");
                         if (loadingProgression >= 100) {
                             clearInterval(timer_1);
