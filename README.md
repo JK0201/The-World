@@ -91,7 +91,7 @@
 
 ## Outro
   <details>
-    <summary><h4>느낀점</h4></summary>
+    <summary><b>느낀점</b></summary>
     <ul>
       <li></li>
     </ul>
@@ -100,7 +100,7 @@
 
 ## Patch Notes
   <details>
-    <summary><b>v 1.0.0</b></summary>
+    <summary><h4>v 1.0.0</h4></summary>
     <ul>
       <li>The World 프로젝트 최초 배포</li>
     </ul>
