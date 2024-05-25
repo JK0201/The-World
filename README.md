@@ -111,7 +111,6 @@
 <br>
 
 ## Patch Notes
-#### DD
 <b>Version :</b> 
   <details>
     <summary><h4>1.0.0</h4></summary>
