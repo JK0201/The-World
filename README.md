@@ -118,7 +118,6 @@
       <li>The World 프로젝트 최초 배포</li>
     </ul>
   </details>
-  <br>
 
   <details>
     <summary><b>1.1.0</b></summary>
