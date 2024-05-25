@@ -136,7 +136,8 @@
   <details>
     <summary><b>1.1.1</b></summary>
     <ul>
-      <li>Resume, Biography 내용 추가 및 디자인 수정</li>
+      <li>Resume, Biography 내용 추가</li> 
+      <li>디자인 수정</li>
     </ul>
   </details>
   
@@ -166,6 +167,7 @@
   <details>
     <summary><b>1.2.2</b></summary>
     <ul>
+      <li>Portfolio 내용 추가</li>
       <li>디자인 수정</li>
     </ul>
   </details>
