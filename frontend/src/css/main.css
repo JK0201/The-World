@@ -629,6 +629,7 @@ section {
   overflow-y: auto;
   word-wrap: break-word;
   white-space: pre-wrap;
+  word-break: keep-all;
   text-align: center;
   line-height: 140%;
 }
