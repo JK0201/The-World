@@ -113,11 +113,12 @@
 ## Patch Notes
 <b>[ Version ]</b> 
   <details>
-    <summary><h4>1.0.0</h4></summary>
+    <summary><b>1.0.0</b></summary>
     <ul>
       <li>The World 프로젝트 최초 배포</li>
     </ul>
   </details>
+  <br><br>
 
   <details>
     <summary><h4>1.1.0</h4></summary>
