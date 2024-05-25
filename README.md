@@ -152,10 +152,10 @@
 
   <details>
     <summary><h4>1.2.1</h4></summary>
-      <ul>
+      <ul style="list-style:none">
         <li>포트폴리오 게시판 목차 메뉴 추가</li>
       </ul>
-      <li style=listStyle:none>Comment :</li>
+      <b>Comment :</b>
       <br>
       사용자 경험을 향상시키기 위해 직관적인 내비게이션 기능을 추가하여 각 항목 간의 이동을 쉽게 만들도록 했습니다.
   </details>
