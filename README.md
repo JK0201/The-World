@@ -121,7 +121,7 @@
   <br><br>
 
   <details>
-    <summary><h4>1.1.0</h4></summary>
+    <summary><b>1.1.0</b></summary>
     <ul>
       <li>API 서버 추가</li>
       <li>3Tier 아키텍쳐 추가</li>
@@ -133,6 +133,7 @@
       </li>
     </ul>
   </details>
+  <br><br>
 
   <details>
     <summary><h4>1.1.1</h4></summary>
