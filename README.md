@@ -144,10 +144,11 @@
     <ul>
       <li>HTTP/HTTPS 적용</li>
       <li>CI/CD 파이프라인 구축</li>
+      <li>Comment :
+      <br>
+      HTTPS 적용으로 사용자 데이터의 안전성을 확보하고, CI/CD 파이프라인 구축으로 개발 효율성을 극대화하여 빠른 배포를 가능하도록 했습니다.
+      </li>
     </ul>
-    <b>Comment :</b>
-    <br>
-    HTTPS 적용으로 사용자 데이터의 안전성을 확보하고, CI/CD 파이프라인 구축으로 개발 효율성을 극대화하여 빠른 배포를 가능하도록 했습니다.
   </details>
 
   <details>
