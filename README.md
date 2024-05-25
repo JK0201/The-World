@@ -111,9 +111,10 @@
 <br>
 
 ## Patch Notes
+### DD
 <b>Version :</b> 
   <details>
-    <summary>###1.0.0</summary>
+    <summary><h4>1.0.0</h4></summary>
     <ul>
       <li>The World 프로젝트 최초 배포</li>
     </ul>
