@@ -109,6 +109,7 @@
     </ul>
   </details>
 
+<details>
  <summary><b>추후 계획</b></summary>
     <ul>
       <li>버전 1.x.x 완성 계획 및 수정안</li>
